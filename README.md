@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Stock market applications are essential tools for investors and traders of all levels, from seasoned professionals to everyday users seeking to benefit from the market. This project demonstrates how to build a full-stack stock market application following a microservices architecture, focusing on scalability, reliability, and real-time features. The frontend connects to multiple backend microservices, offering a modern example suitable for a MERN (MongoDB, Express, React, Node.js) developer portfolio.
+Stock market applications are essential tools for investors and traders of all levels, from seasoned professionals to everyday users seeking to benefit from the market. This project demonstrates how to build a full-stack stock market application following a microservices architecture, focusing on scalability, reliability, and real-time features. The frontend connects to multiple backend microservices.
 
 ---
 
@@ -13,7 +13,6 @@ Stock market applications are essential tools for investors and traders of all l
 - **Live Order Matching**: Orders are matched and executed in real-time.
 - **Stock Line and Candlestick Graphs**: Visualization of stock price trends.
 - **Stock Fundamentals and Information**: View comprehensive details for each stock.
-- **Wishlist of Favorite Stocks**: Users can bookmark stocks for quick access.
 
 ---
 
@@ -109,7 +108,7 @@ Stock market applications are essential tools for investors and traders of all l
 
 ---
 
-## Matching Engine Logic (FIFO Example)
+## Matching Engine Logic (FIFO Example) (optional -- exploring)
 
 - Orders are processed in the order received.
 - Example: A buy order for 500 shares at ₹50 is followed by a buy order for 200 shares at the same price. The 500-share order is matched first with available sell orders, then the 200-share order is processed.
