@@ -117,7 +117,7 @@ Stock market applications are essential tools for investors and traders of all l
 
 ## Frontend 
 
-Frontend repository [Link]() contains the **React** frontend that communicates with the backend microservices described above. It manages user authentication, displays real-time stock data, charts, and provides interfaces for trading and managing watchlists.
+Frontend repository [Link](https://github.com/Shruti-lab/Stock-market-webapp-frontend) contains the **React** frontend that communicates with the backend microservices described above. It manages user authentication, displays real-time stock data, charts, and provides interfaces for trading and managing watchlists.
 
 ---
 
@@ -126,7 +126,7 @@ Frontend repository [Link]() contains the **React** frontend that communicates w
 1. **Clone this repo** for the frontend.
 2. **Clone/setup backend services** as per the architecture above (see backend repo or relevant documentation).
 3. Run all services using **Docker Compose** or deploy to cloud (AWS EC2/RDS recommended).
-4. Start the frontend with `npm start` or `yarn start`.
+4. Start the frontend with `yarn start`.
 5. Visit the app in your browser and sign up to start trading.
 
 ---
