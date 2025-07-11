@@ -1,0 +1,38 @@
+Frontend - monolith architecture
+Reactjs
+Typescript
+
+Charting Library
+- Recharts
+
+UI development
+Material UI
+
+
+Backend - Microservices architecture
+1) Few stocks Data fetch service
+- fetch data of few stocks
+- publish to message broker
+- will have its own db
+
+2) Data charts display service
+- subscribe to stock price data from data fetch service
+- display the data as charts
+- Will have it's own db
+
+3) Order Place service
+- Place order and calculate the balance for a particular user id
+- subscribe to message broker to recieve message of user created
+- publish the order placed (user id, quantity, price per share)
+- Will use order db for a particular user id
+
+4) User authentication service
+- sign/sign up user
+- publish to message broker about new user create
+
+
+5) Price Order matching service (optional --we can't affect prices)
+- subscribe to message broker for order placed
+- execute the orders in fifo format
+- create a dummy order placement
+- can publish notifs for successful order placement
