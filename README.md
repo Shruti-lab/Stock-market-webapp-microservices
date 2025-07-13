@@ -20,8 +20,14 @@ Stock market applications are essential tools for investors and traders of all l
 
 ![Backend Architecture Diagram](./assets/architecture-backend.png)
 
-## Backend Services
+## Backend Services Code - [Link](https://github.com/Shruti-lab/Stock-market-webapp-backend)
 
+
+## Frontend - [Link](https://github.com/Shruti-lab/Stock-market-webapp-frontend)
+
+Frontend repository [Link](https://github.com/Shruti-lab/Stock-market-webapp-frontend) contains the **React** frontend that communicates with the backend microservices described above. It manages user authentication, displays real-time stock data, charts, and provides interfaces for trading and managing watchlists.
+
+---
 
 ### Design Goals
 
@@ -112,12 +118,6 @@ Stock market applications are essential tools for investors and traders of all l
 
 - Orders are processed in the order received.
 - Example: A buy order for 500 shares at ₹50 is followed by a buy order for 200 shares at the same price. The 500-share order is matched first with available sell orders, then the 200-share order is processed.
-
----
-
-## Frontend 
-
-Frontend repository [Link](https://github.com/Shruti-lab/Stock-market-webapp-frontend) contains the **React** frontend that communicates with the backend microservices described above. It manages user authentication, displays real-time stock data, charts, and provides interfaces for trading and managing watchlists.
 
 ---
 
